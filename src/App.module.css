@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+html,body{
+  font-family: 'Josefin Sans', cursive;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  background-color: #4092E6;
+}
+
+li{
+  list-style: none;
+}
+
+h1,h2,h3,span,ul,li{
+  padding: 0;
+  margin: 0;
+}
+
+button{
+  cursor: pointer;
+}
+
+.appWrapper{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+

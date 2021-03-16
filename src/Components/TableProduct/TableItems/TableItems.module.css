@@ -1,0 +1,64 @@
+.tableItemsWrapper{
+    border: 1px solid black;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.tableItems{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tableItems h3{
+    width: 100%;
+    font-weight: 400;
+    font-size: 17px;
+    vertical-align: baseline;
+}
+
+.tableItems h3:nth-child(2){
+    text-align: center;
+}
+
+.tableItems h3:last-child{
+    text-align: right;
+}
+
+.editingBlock{
+    margin-top: 20px;
+}
+
+.editingBlock button:not(:last-child){
+    margin-right: 5px;
+}
+
+.deleteItem{
+    border: none;
+    padding: 10px 15px;
+    background-color: #DB534F;
+    color: #fff;
+    border-radius: 2px;
+}
+
+.editItem{
+    border: none;
+    padding: 10px 15px;
+    background-color: #06A93B;
+    color: #fff;
+    border-radius: 2px;
+}
+
+@media screen and (max-width: 576px){
+    .tableItems h3{
+        font-size: 14px;
+    }
+
+    .deleteItem{
+        padding: 7px 13px;
+    }
+
+    .editItem{
+        padding: 7px 13px;
+    }
+} 
